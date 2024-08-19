@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta charset="UTF-8">
-    <title>Praise</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/cayman.css">
+    <meta charset="UTF-8" />
+    <title>PRAISE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#157878" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/cayman.css" />
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name"><img src="./praise-logo.png"></h1>
+      <h1 class="project-name"><img src="./praise-logo.png" /></h1>
       <a href="#" class="btn">Home</a>
       <a href="https://praise-demo.streamlit.app/" class="btn">Try it</a>
       <a href="./demo/index.html" class="btn">Video Demo</a>
@@ -19,19 +23,55 @@
     </section>
 
     <section class="main-content">
-	  <h1>Enhancing Product Description with LLM-Driven Structured Insights</h1>
+      <h1>Enhancing Product Description with LLM-Driven Structured Insights</h1>
 
-	  <h2>About</h2>
-	  <p> In the digital marketplace, sellers strive to enhance product descriptions to boost sales, while customers look for reliable information. E-commerce platforms rely on accurate product descriptions, but these often fall short in completeness or accuracy. Customer reviews can help fill these gaps. To help with making product reviews better, we introduce <strong>PRAISE: </strong> <strong>P</strong>raise <strong>R</strong>eview <strong>A</strong>ttribute <strong>I</strong>nsight <strong>S</strong>tructuring <strong>E</strong>nging. Our tool, PRAISE, utilizes Large Language Models (LLMs) to automatically summarize and assess both product descriptions and customer reviews through a single, intuitive interface. By integrating these sources, PRAISE enhances the clarity and persuasiveness of product descriptions in a structured format. Our research demonstrates that LLMs significantly improve product descriptions by incorporating insights from customer reviews, offering a notable advancement over existing approaches. PRAISE is available as a web application and can be accessed <a href="https://praise-demo.streamlit.app/">here</a>.</p>
+      <h2>About</h2>
+      <p>
+        In the competitive landscape of online retail, accurate and comprehensive product descriptions are crucial for both sellers and customers.  While e-commerce platforms strive to provide detailed information, product descriptions often lack completeness or accuracy. Customer reviews can bridge this gap, but navigating a plethora of unstructured feedback can be challenging. 
+      </p>
 
-	  
+      <p>
+        To address this issue, we introduce <strong>PRAISE: Product Review Attribute Insight Structuring Engine</strong>. This innovative tool leverages the power of Large Language Models (LLMs) to automatically analyze and synthesize product descriptions and customer reviews within a single, user-friendly interface.
+      </p>
+
+      <p>
+        By integrating these diverse data sources, PRAISE empowers both sellers and customers with a more comprehensive understanding of products, leading to improved decision-making and increased customer satisfaction.
+      </p>
+
+      <p>
+        Explore PRAISE and its capabilities through our web application, available <a href="https://praise-demo.streamlit.app/">here</a>.
+      </p>
+
+      <h2>How does it work?</h2>
+      <p>
+        We introduce PRAISE, a novel tool designed to improve the clarity and informativeness of product descriptions by leveraging insights derived from customer reviews.  PRAISE employs a hybrid approach, combining the analytical capabilities of Large Language Models (LLMs) with a rule-based methodology to effectively synthesize information from both product descriptions and customer feedback. The core functionality of PRAISE can be broken down into these key steps:
+      </p>
+
+      <ul>
+        <li><strong>Step 1: Extracting Descriptive Details from Reviews:</strong> We employ an LLM to identify and extract important descriptive details about the product from each individual customer review. We also filter out opinions or irrelevant information in this step.</li>
+        <li><strong>Step 2: Comparison of Reviews with Seller Description and Categorization:</strong> We use an LLM to compare the descriptive details with the seller description to find information that is Matching, Partially Matching, Contradictory, Missing or an Opinion.</li>
+        <li><strong>Step 3: Merging Tables for Relevant Categories:</strong> We use a rule based method to get tables for Missing, Contradictory and Partially Matching information as those are the most important categories.</li>
+        <li><strong>Step 4: Grouping of Similar Attributes:</strong> To further refine the organization of information, similar attributes are grouped together using an LLM. This step ensures that related features are presented cohesively.</li>
+        <li><strong>Step 5: Creating Final Tables with Categories:</strong> The final step uses another rule based methodology to enable the creation of comprehensive tables that present the synthesized information in a clear and organized manner.</li>
+      </ul>
+      <!-- <h2>How helpful is PRAISE?</h2>
+
+      <h2>Results and Analysis</h2>
+
+      <h2>People</h2> -->
 
       <footer class="site-footer">
-        <span class="site-footer-owner">This page was made using the <a href="https://github.com/jasonlong/cayman-theme">Cayman</a> template maintained by <a href="https://github.com/jasonlong">jasonlong</a>.</span>
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+        <span class="site-footer-owner"
+          >This page was made using the
+          <a href="https://github.com/jasonlong/cayman-theme">Cayman</a>
+          template maintained by
+          <a href="https://github.com/jasonlong">jasonlong</a>.</span
+        >
+        <span class="site-footer-credits"
+          >This page was generated by
+          <a href="https://pages.github.com">GitHub Pages</a>.</span
+        >
       </footer>
-
     </section>
-
   </body>
 </html>
