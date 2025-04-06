@@ -42,18 +42,16 @@
         Explore PRAISE and its capabilities through our web application, available <a href="https://praise-demo.vercel.app/">here</a>.
       </p>
       
-      <!-- TODO: Fix from here -->
       <h2>How does it work?</h2>
       <p>
-        We introduce PRAISE, a novel tool designed to improve the clarity and informativeness of product descriptions by leveraging insights derived from customer reviews.  PRAISE employs a hybrid approach, combining the analytical capabilities of Large Language Models (LLMs) with a rule-based methodology to effectively synthesize information from both product descriptions and customer feedback. The core functionality of PRAISE can be broken down into these key steps:
+        We introduce PRAISE, a tool designed to improve the clarity and informativeness of product descriptions by leveraging insights derived from customer reviews.  PRAISE employs a hybrid approach, combining the analytical capabilities of Large Language Models (LLMs) with a rule-based methodology to effectively synthesize information from both product descriptions and customer feedback. PRAISE leverages the idea of structured outputs through LLMs. The core functionality of PRAISE can be broken down into these key steps:
       </p>
 
       <ul>
         <li><strong>Step 1: Extracting Descriptive Details from Reviews:</strong> We employ an LLM to identify and extract important descriptive details about the product from each individual customer review. We also filter out opinions or irrelevant information in this step.</li>
-        <li><strong>Step 2: Comparison of Reviews with Seller Description and Categorization:</strong> We use an LLM to compare the descriptive details with the seller description to find information that is Matching, Partially Matching, Contradictory, Missing or an Opinion.</li>
-        <li><strong>Step 3: Merging Tables for Relevant Categories:</strong> We use a rule based method to get tables for Missing, Contradictory and Partially Matching information as those are the most important categories.</li>
-        <li><strong>Step 4: Grouping of Similar Attributes:</strong> To further refine the organization of information, similar attributes are grouped together using an LLM. This step ensures that related features are presented cohesively.</li>
-        <li><strong>Step 5: Creating Final Tables with Categories:</strong> The final step uses another rule based methodology to enable the creation of comprehensive tables that present the synthesized information in a clear and organized manner.</li>
+        <li><strong>Step 2: Comparison of Reviews with Seller Description and Categorization:</strong> We use an LLM to compare the descriptive details with the seller description to find information that is Matching, Partially Matching, Contradictory or Missing.</li>
+        <li><strong>Step 3: Grouping of Similar Attributes:</strong> To further refine the organization of information, similar attributes are grouped together using an LLM. This step ensures that related features are presented cohesively.</li>
+        <li><strong>Step 4: Generating Structured Insights:</strong> Finally, PRAISE generates structured insights that summarize the extracted details and their relationship to the seller description. This neatly structured output provides a clear and concise overview of the product's attributes.</li>
       </ul>
       
       <footer class="site-footer">
